@@ -1,8 +1,8 @@
 autoload :Logger, 'logger'
 
 module PusherClient
-  HOST = 'ws.pusherapp.com'
-  WS_PORT = 80
+  HOST = 'pusher.mcserverlist.net'
+  WS_PORT = 1337
   WSS_PORT = 443
 
   @logger = Logger.new(STDOUT)
